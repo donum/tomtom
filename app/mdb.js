@@ -16,8 +16,6 @@ var MDB = {
         }
 
         res.end(require('fs').readFileSync('app/views/login.html', 'utf-8'));
-
-        //res.render('login');
     },
 
     processLogin: function (req, res, next) {

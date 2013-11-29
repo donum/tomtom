@@ -1,0 +1,25 @@
+{
+  "name": "MovieDB",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sspringer82/tomtom",
+  "authors": [
+    "Sebastian Springer <sebastian.springer@mayflower.de>"
+  ],
+  "description": "My fancy movie database",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2",
+    "backbone": "~1.1.0",
+    "bootstrap": "~3.0.2",
+    "requirejs": "~2.1.9"
+  }
+}

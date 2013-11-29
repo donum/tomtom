@@ -24,6 +24,9 @@ module.exports = function (grunt) {
                     }, {
                         src: 'bower_components/requirejs/require.js',
                         dest: 'dist/js/lib/require.js'
+                    }, {
+                        src: 'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                        dest: 'dist/style/bootstrap.min.css'
                     }
                 ]
             }
